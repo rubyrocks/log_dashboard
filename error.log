@@ -1,0 +1,3 @@
+2024-10-26 10:10:10 ERROR: Failed to execute SQL call to packageA with parameters (789, 'DEF') - ORA-06550: line 1, column 7: PL/SQL: ORA-00904: "INVALID_COLUMN": invalid identifier
+2024-10-26 10:10:30 ERROR: Failed to execute SQL call to packageB with parameters (987, 'LMN') - ORA-06512: at "SCHEMA.PACKAGEB", line 10 ORA-01403: no data found
+2024-10-26 10:10:45 ERROR: Connection timeout while calling packageA
