@@ -1,0 +1,15 @@
+2024-10-26 10:10:01 INFO: Executing SQL call to packageA with parameters (123, 'ABC')
+2024-10-26 10:10:02 INFO: packageA returned: T
+2024-10-26 10:10:05 INFO: Executing SQL call to packageB with parameters (456, 'XYZ')
+2024-10-26 10:10:06 INFO: packageB returned: F
+2024-10-26 10:10:10 ERROR: Failed to execute SQL call to packageA with parameters (789, 'DEF') - ORA-06550: line 1, column 7: PL/SQL: ORA-00904: "INVALID_COLUMN": invalid identifier
+2024-10-26 10:10:15 INFO: Executing SQL call to packageA with parameters (321, 'UVW')
+2024-10-26 10:10:16 INFO: packageA returned: T
+2024-10-26 10:10:20 INFO: Executing SQL call to packageB with parameters (654, 'QRS')
+2024-10-26 10:10:21 INFO: packageB returned: F
+2024-10-26 10:10:30 ERROR: Failed to execute SQL call to packageB with parameters (987, 'LMN') - ORA-06512: at "SCHEMA.PACKAGEB", line 10 ORA-01403: no data found
+2024-10-26 10:10:35 INFO: Executing SQL call to packageA with parameters (567, 'NOP')
+2024-10-26 10:10:36 INFO: packageA returned: T
+2024-10-26 10:10:40 INFO: Executing SQL call to packageB with parameters (876, 'TUV')
+2024-10-26 10:10:41 INFO: packageB returned: F
+2024-10-26 10:10:45 ERROR: Connection timeout while calling packageA
