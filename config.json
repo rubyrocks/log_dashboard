@@ -1,0 +1,6 @@
+{
+    "log_files": {
+        "app_log": "/path/to/app.log",
+        "error_log": "/path/to/error.log"
+    }
+}
